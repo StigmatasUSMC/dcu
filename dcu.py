@@ -86,5 +86,6 @@ def move_files2(file_list):
                 print(e)
 
 
+if __name__=='__main__':
 # Chain them all together instead of using intermediates
 move_files2(filter_files1(os.listdir(path)))

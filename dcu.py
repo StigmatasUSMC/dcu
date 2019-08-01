@@ -15,6 +15,8 @@ file_types = {
 path = r'c:\Users\n_sha\Desktop'
 destination = r'c:\Users\n_sha'
 
+if not os.path.exists(destination):
+    os.makedirs(destination)
 
 # Sorting function
 def filter_files1(file_list):
